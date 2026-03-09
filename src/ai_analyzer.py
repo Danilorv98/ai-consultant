@@ -3,6 +3,10 @@ import json
 from typing import Optional, Literal
 from openai import OpenAI
 from anthropic import Anthropic
+from dotenv import load_dotenv
+
+# Carica le variabili d'ambiente dal file .env
+load_dotenv()
 
 
 class AIAnalyzer:

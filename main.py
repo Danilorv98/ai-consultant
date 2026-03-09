@@ -3,6 +3,10 @@ import os
 from datetime import datetime
 from src.document_processor import DocumentProcessor
 from src.ai_analyzer import AIAnalyzer
+from dotenv import load_dotenv
+
+# Carica le variabili d'ambiente dal file .env
+load_dotenv()
 
 
 class DocumentProcessingPipeline:
@@ -161,7 +165,7 @@ Il futuro della tecnologia sarà modellato da come affrontiamo questi problemi.
 """)
     
     # Processa il documento
-    pipeline = DocumentProcessingPipeline(ai_provider="openai")
+    pipeline = DocumentProcessingPipeline(ai_provider="anthropic")
     results = pipeline.process_document(sample_doc)
     
     # Visualizza risultati
