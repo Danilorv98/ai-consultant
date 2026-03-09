@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-03-09T15:03:02.284849",
+  "metadata": {
+    "file_name": "sample.txt",
+    "file_type": ".txt",
+    "file_size": 1193,
+    "content_length": 1187
+  },
+  "extraction": "{\n  \"tema_principale\": \"Intelligenza Artificiale e il suo impatto sul futuro della tecnologia\",\n  \"punti_chiave\": [\n    \"L'AI sta rivoluzionando il modo in cui lavoriamo e viviamo\",\n    \"Le aziende utilizzano l'AI per migliorare efficienza, ridurre costi e offrire migliori servizi\",\n    \"È importante affrontare le sfide etiche e di sicurezza legate all'IA\",\n    \"Esempi concreti di utilizzo dell'AI, come i chatbot nel servizio clienti\",\n    \"Principali aree di sviluppo dell'IA: Machine Learning, NLP, Computer Vision, Sistemi di Raccomandazione, Automazione Robotica\"\n  ],\n  \"entita_nominate\": [\n    \"Intelligenza Artificiale\",\n    \"Aziende\",\n    \"Chatbot\"\n  ],\n  \"tono_del_documento\": \"Informativo e obiettivo, con un focus sulle opportunità e le sfide dell'Intelligenza Artificiale\"\n}",
+  "summary": "L'intelligenza artificiale sta rivoluzionando il modo in cui lavoriamo e viviamo, con le aziende che la utilizzano per migliorare l'efficienza, ridurre i costi e offrire migliori servizi ai clienti. Tuttavia, è importante affrontare le sfide etiche e di sicurezza che l'IA presenta, come l'uso di chatbot nel servizio clienti, progettati in modo etico per evitare discriminazioni. Le principali aree di sviluppo includono machine learning, elaborazione del linguaggio naturale, computer vision e automazione robotica, mentre le sfide principali riguardano privacy, bias, sicurezza e impatto lavorativo. Nonostante gli ostacoli, l'AI continuerà a trasformare industrie intere, a patto di sviluppare soluzioni responsabili e inclusive.",
+  "sentiment": {
+    "sentiment": "positivo",
+    "confidence": 85,
+    "reasoning": "Il testo presenta l'intelligenza artificiale come una tecnologia che sta rivoluzionando positivamente il modo in cui lavoriamo e viviamo, con numerosi esempi di applicazioni concrete come i chatbot nel servizio clienti. Vengono anche riconosciute le sfide etiche e di sicurezza, ma l'overall tone è ottimista sul futuro dell'IA, sottolineando l'importanza di sviluppare soluzioni responsabili e inclusive."
+  },
+  "ai_provider": "anthropic"
+}

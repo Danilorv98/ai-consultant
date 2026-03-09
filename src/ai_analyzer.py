@@ -53,7 +53,7 @@ Rispondi in JSON."""
         
         elif self.provider == "anthropic":
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-haiku-20240307",
                 max_tokens=1000,
                 messages=[
                     {"role": "user", "content": f"{extraction_prompt}\n\nTesto:\n{text}"}
@@ -85,7 +85,7 @@ Rispondi in JSON."""
         
         elif self.provider == "anthropic":
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-haiku-20240307",
                 max_tokens=500,
                 messages=[
                     {"role": "user", "content": prompt}
@@ -118,7 +118,7 @@ Testo: {text}"""
         
         elif self.provider == "anthropic":
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-haiku-20240307",
                 max_tokens=300,
                 messages=[
                     {"role": "user", "content": prompt}
@@ -157,7 +157,7 @@ Rispondi in JSON con il formato: {{"question_1": "risposta", "question_2": "risp
         
         elif self.provider == "anthropic":
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-haiku-20240307",
                 max_tokens=1000,
                 messages=[
                     {"role": "user", "content": prompt}
