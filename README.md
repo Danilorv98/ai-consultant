@@ -68,33 +68,35 @@ nano .env
 Aggiungi le tue API keys:
 ```
 OPENAI_API_KEY=sk-your-key-here
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-AI_PROVIDER=openai
+ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
+AI_PROVIDER=anthropic  # openai o anthropic
 ```
 
-### 3. Usa l'Applicazione
+### 3. Testa il Progetto
 
 **Analisi Base:**
-```python
-from main import DocumentProcessingPipeline
-
-pipeline = DocumentProcessingPipeline(ai_provider="openai")
-results = pipeline.process_document("documents/document.txt")
-pipeline.display_results()
+```bash
+python main.py
 ```
 
-**Analisi con Domande Personalizzate:**
-```python
-questions = [
-    "Qual è il tema principale?",
-    "Chi sono i personaggi principali?",
-    "Quali sono le conclusioni?"
-]
+**Output Esempio:**
+```
+🚀 Document Processor AI - Demo
 
-results = pipeline.process_with_custom_questions(
-    "documents/document.txt", 
-    questions
-)
+📄 Elaborazione documento: documents/sample.txt
+✓ Documento caricato (1187 caratteri)
+✓ Metadati estratti
+🤖 Avvio analisi AI...
+✓ Informazioni estratte
+✓ Riassunto generato
+✓ Sentiment analizzato
+✓ Risultati salvati in: output/analysis_20260309_150302.json
+
+📊 RISULTATI ANALISI
+📝 Metadati: sample.txt (.txt, 1193 bytes, 1187 caratteri)
+📌 Informazioni Estratte: Tema IA, punti chiave, entità nominate
+📋 Riassunto: L'AI sta rivoluzionando lavoro e vita...
+😊 Sentiment: positivo (85% confidence)
 ```
 
 ## 📊 Output
